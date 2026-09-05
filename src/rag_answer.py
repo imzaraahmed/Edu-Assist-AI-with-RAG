@@ -3,8 +3,8 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from rag_search import search_knowledge_base
-
+#from rag_search import search_knowledge_base
+from src.rag_search import search_knowledge_base
 
 load_dotenv()
 
